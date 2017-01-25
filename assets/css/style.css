@@ -56,3 +56,22 @@ li.horizontal1 {
 h1.heading1 {
 	color: white;
 }
+.background-img1 {
+	background-image: url(../images/background.png);
+	margin: 0px;
+    -webkit-animation-name: mytest; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: mytest;
+    animation-duration: 10s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mytest {
+    from {background-image: url(../images/background.png);}
+    to {background-image: url(../images/background2.png);}
+}
+
+/* Standard syntax */
+@keyframes mytest {
+    from {background-image: url(../images/background.png);}
+    to {background-image: url(../images/background2.png);}
+}
