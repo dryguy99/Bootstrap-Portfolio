@@ -1,8 +1,58 @@
 
+.background-img {
+	background-image: url(../images/background.png);
+	margin: 0px;
+}
 .auth-image {
 	width: 200px;
   	height: auto;
   	margin-top: 10px;
  	 margin-right: 25px;
   	float: left;
+}
+.clean {
+	background: white;
+}
+.link1 {
+	position: relative;
+	left: -100px;
+	top: -85px;
+	text-align: center;
+	margin: 1px; 
+	padding: 1px 1px 5px 1px;
+	width: 100%;
+	margin-left: 100px;
+	background: #4aaaa5;
+	color: white;
+	z-index: 3;
+}
+.myframe {
+	border-style: none;
+}
+.mycolor {
+	color: #3aaaa5;
+}
+.myrow {
+	max-height: 240px;
+}
+.mycolumn {
+	max-height: 250px;
+}
+.mypanel {
+	text-align: center; 
+	font-weight: 600; 
+	background: url(../images/background.png); 
+	color: #3aaaa5;
+}
+h2.mycolor{
+	color: #3aaaa5;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+li.horizontal1 {
+	float: left;
+}
+h1.heading1 {
+	color: white;
 }
