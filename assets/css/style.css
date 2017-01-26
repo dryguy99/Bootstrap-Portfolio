@@ -53,14 +53,26 @@
 	text-align: center; 
 	font-weight: 600; 
 	background: url(../images/background.png); 
-	color: #3aaaa5;
+	color: 
+	#3aaaa5;
+}
+.myfooter {
+	background-color: #4aaaa5; 
+	text-align: center; 
+	color: white; 
+	padding: 12px;
 }
 h2.mycolor{
 	color: #3aaaa5;
 	font-weight: 700;
 	margin-left: 10px;
 }
-
+img.my-img {
+	padding-top: 12px; 
+	margin-left: 10px; 
+	width: 220px;
+	border-radius: 40px;
+}
 li.horizontal1 {
 	float: left;
 }
