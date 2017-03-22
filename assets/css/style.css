@@ -4,8 +4,10 @@
 	margin: 0px;
 }
 .clean {
-	background: white;
+	background: none;
 	overflow: hidden;
+	opacity: 0.9;
+	border: none;
 }
 .link1 {
 	position: relative;
@@ -20,6 +22,12 @@
 	color: white;
 	z-index: 3;
 }
+.thumbnail, .myframe, img, .navbar-header, section, .container-fluid, .navbar, .navbar-default, .panel-heading{
+	border-radius: 3vw;
+}
+.thunbnail, .page-header {
+	background: none;
+}
 .input-mysize {
 	width: 400px;
 	height: 250px;
@@ -32,6 +40,7 @@
 }
 .myframe {
 	border-style: none;
+	background: none;
 }
 .mycolor {
 	color: #3aaaa5;
@@ -45,15 +54,25 @@
 .mypanel {
 	text-align: center; 
 	font-weight: 600; 
-	background: url(../images/background.png); 
+	background: none; 
+	background-color: none;
+	border: none;
 	color: 
 	#3aaaa5;
+}
+.panel-default > .panel-heading {
+	background-color: none;
+}
+.panel-body {
+	background: none;
+	border: none;
 }
 .myfooter {
 	background-color: #4aaaa5; 
 	text-align: center; 
 	color: white; 
 	padding: 12px;
+	border-radius: 20px;
 }
 h2.mycolor{
 	color: #3aaaa5;
