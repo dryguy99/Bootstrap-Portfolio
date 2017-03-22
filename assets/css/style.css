@@ -68,6 +68,7 @@ img.my-img {
 }
 li.horizontal1 {
 	float: left;
+	text-align: center;
 }
 h1.heading1 {
 	color: white;
